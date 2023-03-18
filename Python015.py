@@ -14,11 +14,11 @@ print(a.rjust(20,"#"))
 e = """First line
 second
 third"""
-print(e.splitlines())
+print(e.splitlines()) # make it in list every line
 
 # expandtabs()
 a = "I\tLove\tPython"
-print(a.expandtabs(10))
+print(a.expandtabs(10)) # number of spaces in \t
 
 one = "I Love Python And 3G"
 print(one.istitle()) # check
@@ -31,7 +31,7 @@ print(five.islower()) # if one is upper > False
 
 seven = "Osama ma"
 eight = "SL6"
-print(seven.isidentifier())
+print(seven.isidentifier()) # as a variable name
 print(eight.isidentifier())
 
 x = "AAAAAAAAAA30AAAAAAA"

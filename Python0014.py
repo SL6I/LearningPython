@@ -2,10 +2,10 @@
 
 #split | rsplit
 a = "I love Python and PHP"
-print(a.split())
+print(a.split()) # split the string to list ["I" , "love" , "python"]
 
 a = "I love Python and PHP"
-print(a.split(" ",2)) # 2 is maximma
+print(a.split(" ",2)) # 2 is maximma ["I" , "love" , "python and php"]
 
 # rsplit from right
 
@@ -22,7 +22,7 @@ print(a.count("o",0,6)) # Case sensitive
 
 # swapcase
 a = "I love PyTHon"
-print(a.swapcase())
+print(a.swapcase()) # from lower to upper and so on
 
 # startswith()
 a = "I love Python"
