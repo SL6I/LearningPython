@@ -16,7 +16,7 @@ print(myList[::2])
 myList[2] = 2
 myList[-1] = False
 #
-myList[0:3] = [3,3,3,2] # Not replace 
+myList[0:3] = [3,3,3,2,True] # Not replace 
 #
 print(myList)
 
