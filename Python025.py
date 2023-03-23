@@ -46,7 +46,7 @@ t = (1,2,3,2,3,23,23,3,2,2,3)
 print(t.index(2))
 
 # Tuple destruct
-a = ("6FSH","MNGD",2)
-X,Y = a
+a = ("6FSH",3,"MNGD",2)
+X,_,Y,_ = a
 print(X)
 print(Y)
