@@ -6,4 +6,4 @@ print(os.getcwd())
 
 print(os.path.dirname(os.path.abspath(__file__)))
 # print(os.path.abspath(__file__))
-# file = open("sl6.txt")
+file = open(r"sl6.txt")
